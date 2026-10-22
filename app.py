@@ -562,4 +562,3 @@ elif menu == "Analytics":
 st.sidebar.divider()
 st.sidebar.caption("Healthcare Dynamic EHR")
 st.sidebar.caption("Python • Streamlit • SQLite • Pandas • Plotly")
-
