@@ -9,7 +9,6 @@ This project stores and manages connected healthcare data such as patients, vita
 
 You can access the Healthcare Dynamic EHR System using the link below:
 
-[Click Here to Open the Streamlit App](YOUR_STREAMLIT_APP_LINK)
 
 > Note: Replace `YOUR_STREAMLIT_APP_LINK` with your actual deployed Streamlit application URL.
 
