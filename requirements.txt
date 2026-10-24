@@ -1,3 +1,5 @@
-streamlit
-pandas
-plotly
+
+streamlit>=1.36
+neo4j>=5.26,<7
+pandas>=2.0
+plotly>=5.0
