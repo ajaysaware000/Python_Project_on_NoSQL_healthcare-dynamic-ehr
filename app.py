@@ -22,10 +22,10 @@ def setting(name, default=None):
     except Exception:
         return os.getenv(name, default)
 
-NEO4J_URI = setting("NEO4J_URI", "bolt://localhost:7687")
-NEO4J_USERNAME = setting("NEO4J_USERNAME", "neo4j")
-NEO4J_PASSWORD = setting("NEO4J_PASSWORD", "")
-NEO4J_DATABASE = setting("NEO4J_DATABASE", "neo4j")
+NEO4J_URI = setting("NEO4J_URI", "neo4j+s://164c09dc.databases.neo4j.io")
+NEO4J_USERNAME = setting("NEO4J_USERNAME", "164c09dc")
+NEO4J_PASSWORD = setting("NEO4J_PASSWORD", "SWSlww4obSza5Jm90c0ZtvFe4REuE_0cIJmSe9Kkx4E")
+NEO4J_DATABASE = setting("NEO4J_DATABASE", "164c09dc")
 
 if not NEO4J_PASSWORD:
     st.error("Neo4j password is missing. Set NEO4J_PASSWORD in environment variables or .streamlit/secrets.toml.")
